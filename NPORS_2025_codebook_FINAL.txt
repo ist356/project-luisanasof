@@ -1,0 +1,280 @@
+Variable	Variable_Label	Values	Value_Labels
+RESPID	Case ID	2	Min. Val.
+RESPID		18800	Max. Val
+MODE	Data collection mode	1	Online
+MODE		2	Paper
+MODE		3	Phone
+LANGUAGE	Language respondent finished interview in	1	English
+LANGUAGE		2	Spanish
+LANGUAGEINITIAL	Language respondent started interview in	9	English
+LANGUAGEINITIAL		10	Spanish
+STRATUM	Sampling stratum	1	"1 = 50%-74.99% Black non-Hispanic, 65%+ HS or less"
+STRATUM		2	"2 = 50%-74.99% Black non-Hispanic, NOT 65%+ HS or less"
+STRATUM		3	"3 = 75%+ Black non-Hispanic, 65%+ HS or less"
+STRATUM		4	"4 = 75%+ Black non-Hispanic, NOT 65%+ HS or less"
+STRATUM		5	"5 = 50%-74.99% Hispanic, 65%+ HS or less"
+STRATUM		6	"6 = 50%-74.99% Hispanic, NOT 65%+ HS or less"
+STRATUM		7	"7 = 75%+ Hispanic, 65%+ HS or less"
+STRATUM		8	"8 = 75%+ Hispanic, NOT 65%+ HS or less"
+STRATUM		9	"9 = Remaining CBG, 65%+ HS or less"
+STRATUM		10	"10 = Remaining CBG, NOT 65%+ HS or less"
+INTERVIEW_START	interview_start	2025-02-07	Min. Val.
+INTERVIEW_START		2025-06-18	Max. Val
+INTERVIEW_END	interview_end	2025-02-07	Min. Val.
+INTERVIEW_END		2025-06-18	Max. Val
+ECON1MOD	How would you rate economic conditions in your community today?	1	Excellent
+ECON1MOD		2	Good
+ECON1MOD		3	Only fair
+ECON1MOD		4	Poor
+ECON1MOD		99	Refused/Web blank
+ECON1BMOD	"A year from now, what do you expect economic conditions in your community will be?"	1	Better
+ECON1BMOD		2	Worse
+ECON1BMOD		3	About the same
+ECON1BMOD		99	Refused/Web blank
+COMTYPE2	How would you describe the community where you currently live?	1	Urban
+COMTYPE2		2	Suburban
+COMTYPE2		3	Rural
+COMTYPE2		99	Refused/Web blank
+UNITY	"Which statement comes closer to your own view, even if neither is exactly right?"	1	Americans are united when it comes to the most important values
+UNITY		2	Americans are divided when it comes to the most important values
+UNITY		99	Refused/Web blank
+CRIMESAFE	"How would you describe the area where you live, in terms of crime?"	1	Extremely safe
+CRIMESAFE		2	Very safe
+CRIMESAFE		3	Somewhat safe
+CRIMESAFE		4	Not too safe
+CRIMESAFE		5	Not at all safe
+CRIMESAFE		99	Refused/Web blank
+GOVPROTCT	"Which statement comes closer to your own view, even if neither is exactly right?"	1	It's not the government's job to protect people from themselves
+GOVPROTCT		2	Sometimes laws to protect people from themselves are necessary
+GOVPROTCT		99	Refused/Web blank
+MOREGUNIMPACT	"If more Americans owned guns, do you think there would be ..."	1	More crime
+MOREGUNIMPACT		2	Less crime
+MOREGUNIMPACT		3	No difference
+MOREGUNIMPACT		99	Refused/Web blank
+FIN_SIT	How would you describe your household's financial situation?	1	Live comfortably
+FIN_SIT		2	Meet my basic expenses with a little left over for extras
+FIN_SIT		3	Just meet my basic expenses
+FIN_SIT		4	Don't even have enough to meet basic expenses
+FIN_SIT		99	Refused/Web blank
+VET1	Have you or has anyone in your household ever served in the U.S. military or the military reserves?	1	"Yes, self"
+VET1		2	"Yes, someone else in household"
+VET1		3	"Yes, both myself and someone else"
+VET1		4	"No, nobody in household"
+VET1		99	Refused/Web blank
+VOL12_CPS	"In the past 12 months, did you spend any time volunteering for any organization or association? (This includes activities you may do infrequently or for children's schools or youth organizations.)"	1	Yes
+VOL12_CPS		2	No
+VOL12_CPS		99	Refused/Web blank
+EMINUSE	"Do you use the internet or email, at least occasionally?"	1	Yes
+EMINUSE		2	No
+EMINUSE		99	Refused/Web blank
+INTMOB	"Do you access the internet on a cell phone, tablet, or other mobile handheld device, at least occasionally?"	1	Yes
+INTMOB		2	No
+INTMOB		99	Refused/Web blank
+INTFREQ	About how often do you use the internet? [Recoded for all cases based on filter logic]	1	Almost constantly
+INTFREQ		2	Several times a day
+INTFREQ		3	About once a day
+INTFREQ		4	Several times a week
+INTFREQ		5	Less often
+INTFREQ		6	I do not use the internet
+INTFREQ		99	Refused/Web blank
+INTFREQ_COLLAPSED	Frequency of internet use	1	Almost constantly
+INTFREQ_COLLAPSED		2	Several times a day
+INTFREQ_COLLAPSED		3	Daily or several times a week
+INTFREQ_COLLAPSED		4	Less often or does not use the internet
+INTFREQ_COLLAPSED		99	Refused
+HOME4NW2	Do you currently subscribe to internet service installed at your home (other than data plans on mobile devices)?	1	Yes
+HOME4NW2		2	No
+HOME4NW2		99	Refused/Web blank
+BBHOME	Is the home internet service you subscribe to ...	1	Dial-up (over a landline phone connection)
+BBHOME		2	"High-speed broadband like cable, fiber optic, wireless router, satellite, or DSL"
+BBHOME		3	Other service (please specify):
+BBHOME		4	Not sure
+BBHOME		99	Refused/Web blank
+SMUSE_FB	Facebook // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_FB		2	"No, don't use this"
+SMUSE_FB		99	Refused/Web blank
+SMUSE_YT	YouTube // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_YT		2	"No, don't use this"
+SMUSE_YT		99	Refused/Web blank
+SMUSE_X	X (formerly Twitter) // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_X		2	"No, don't use this"
+SMUSE_X		99	Refused/Web blank
+SMUSE_IG	 Instagram // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_IG		2	"No, don't use this"
+SMUSE_IG		99	Refused/Web blank
+SMUSE_SC	Snapchat // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_SC		2	"No, don't use this"
+SMUSE_SC		99	Refused/Web blank
+SMUSE_WA	WhatsApp // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_WA		2	"No, don't use this"
+SMUSE_WA		99	Refused/Web blank
+SMUSE_TT	TikTok // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_TT		2	"No, don't use this"
+SMUSE_TT		99	Refused/Web blank
+SMUSE_RD	Reddit // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_RD		2	"No, don't use this"
+SMUSE_RD		99	Refused/Web blank
+SMUSE_BSK	Bluesky // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_BSK		2	"No, don't use this"
+SMUSE_BSK		99	Refused/Web blank
+SMUSE_TH	Threads // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_TH		2	"No, don't use this"
+SMUSE_TH		99	Refused/Web blank
+SMUSE_TS	Truth Social // Please indicate whether or not you ever use the following websites or apps.	1	"Yes, use this"
+SMUSE_TS		2	"No, don't use this"
+SMUSE_TS		99	Refused/Web blank
+RADIO	Do you listen to the radio?	1	Yes
+RADIO		2	No
+RADIO		99	Refused/Web blank
+DEVICE1A	Do you have a cell phone?	1	"Yes, have a cellphone"
+DEVICE1A		2	"No, do not have a cellphone"
+DEVICE1A		99	Refused/Web blank
+SMART2	Is your cell phone a smartphone?	1	"Yes, smartphone"
+SMART2		2	"No, not a smartphone"
+SMART2		99	Refused/Web blank
+NHISLL	Is there at least one working telephone inside your home that is not a cell phone?	1	Yes
+NHISLL		2	No
+NHISLL		99	Refused/Web blank
+RELIG	"What is your present religion, if any?"	1	Protestant
+RELIG		2	Roman Catholic
+RELIG		3	Mormon
+RELIG		4	Orthodox
+RELIG		5	Jewish
+RELIG		6	Muslim
+RELIG		7	Buddhist
+RELIG		8	Hindu
+RELIG		9	Atheist
+RELIG		10	Agnostic
+RELIG		11	Something else (please specify):
+RELIG		12	Nothing in particular
+RELIG		99	Refused/Web blank
+RELIGCAT1	Religion - 4 category	1	Protestant
+RELIGCAT1		2	Catholic
+RELIGCAT1		3	Unaffiliated
+RELIGCAT1		4	Other
+RELIGCAT1		99	Refused
+BORN	Would you describe yourself as a born-again or evangelical Christian?	1	"Yes, born-again or evangelical Christian"
+BORN		2	"No, not born-again or evangelical Christian"
+BORN		99	Refused/Web blank
+ATTENDPER	"Aside from weddings and funerals, how often do you attend religious services in person?"	1	More than once a week
+ATTENDPER		2	Once a week
+ATTENDPER		3	Once or twice a month
+ATTENDPER		4	A few times a year
+ATTENDPER		5	Seldom
+ATTENDPER		6	Never
+ATTENDPER		99	Refused/Web blank
+ATTENDONLINE2	"In general, how often do you watch or participate in religious services online or on TV?"	1	More than once a week
+ATTENDONLINE2		2	Once a week
+ATTENDONLINE2		3	Once or twice a month
+ATTENDONLINE2		4	A few times a year
+ATTENDONLINE2		5	Seldom
+ATTENDONLINE2		6	Never
+ATTENDONLINE2		99	Refused/Web blank
+RELIMP	How important is religion in your life?	1	Very important
+RELIMP		2	Somewhat important
+RELIMP		3	Not too important
+RELIMP		4	Not at all important
+RELIMP		99	Refused/Web blank
+PRAY	"Outside of attending religious services, how often do you pray?"	1	Several times a day
+PRAY		2	Once a day
+PRAY		3	A few times a week
+PRAY		4	Once a week
+PRAY		5	A few times a month
+PRAY		6	Seldom
+PRAY		7	Never
+PRAY		99	Refused/Web blank
+EDUCCAT	Education - 3 category	1	College graduate+
+EDUCCAT		2	Some College
+EDUCCAT		3	H.S. graduate or less
+EDUCCAT		99	Refused
+REGISTRATION	Are you registered to vote at your current address?	1	Yes
+REGISTRATION		2	No
+REGISTRATION		3	Not sure
+REGISTRATION		99	Refused/Web blank
+PARTY	"In politics today, do you consider yourself a ..."	1	Republican
+PARTY		2	Democrat
+PARTY		3	Independent
+PARTY		4	Something else
+PARTY		99	Refused/Web blank
+PARTYLN	As of today do you lean more to ...	1	The Republican Party
+PARTYLN		2	The Democratic Party
+PARTYLN		99	Refused/Web blank
+PARTYSUM	Party summary	1	Rep/Lean Rep
+PARTYSUM		2	Dem/Lean Dem
+PARTYSUM		9	DK/Refused/No lean
+HISP	"Are you of Hispanic, Latino, or Spanish origin, such as Mexican, Puerto Rican, or Cuban?"	1	Yes
+HISP		2	No
+HISP		99	Refused/Web blank
+RACECMB	Combined RACEMOD	1	White
+RACECMB		2	Black or African-American
+RACECMB		3	Asian or Asian-American
+RACECMB		4	Mixed Race
+RACECMB		5	Some other Race
+RACECMB		99	Refused
+RACETHN	Race-Ethnicity	1	White non-Hispanic
+RACETHN		2	Black non-Hispanic
+RACETHN		3	Hispanic
+RACETHN		4	Other
+RACETHN		5	Asian non-Hispanic
+RACETHN		99	Refused
+AGEGRP	"Age, collapsed"	1	18-24
+AGEGRP		2	25-29
+AGEGRP		3	30-34
+AGEGRP		4	35-39
+AGEGRP		5	40-44
+AGEGRP		6	45-49
+AGEGRP		7	50-54
+AGEGRP		8	55-59
+AGEGRP		9	60-64
+AGEGRP		10	65-69
+AGEGRP		11	70-74
+AGEGRP		12	75-79
+AGEGRP		13	80+
+AGEGRP		99	Refused
+AGECAT	Age - 4 category	1	18-29
+AGECAT		2	30-49
+AGECAT		3	50-64
+AGECAT		4	65+
+AGECAT		99	Refused
+BIRTHPLACE	Where were you born?	1	"U.S. - 50 states, District of Columbia"
+BIRTHPLACE		2	U.S. - Puerto Rico
+BIRTHPLACE		3	U.S. - other territory
+BIRTHPLACE		4	Another country (please specify):
+BIRTHPLACE		98	Don't know
+BIRTHPLACE		99	Refused/Web blank
+GENDER	"Do you describe yourself as a man, a woman, or in some other way?"	1	A man
+GENDER		2	A woman
+GENDER		3	In some other way
+GENDER		99	Refused/Web blank
+ADULTS	"How many adults, age 18 or older, currently live in your household including yourself?"	1	1
+ADULTS		2	2
+ADULTS		3	3
+ADULTS		4	4
+ADULTS		5	5 or more
+ADULTS		99	Refused/Web blank
+VOTED2024	Did you happen to vote in the 2024 presidential election?	1	Yes
+VOTED2024		2	No
+VOTED2024		99	Refused/Web blank
+VOTEGEN_POST	Who did you vote for?	1	"Donald Trump, the Republican"
+VOTEGEN_POST		2	"Kamala Harris, the Democrat"
+VOTEGEN_POST		3	Another candidate
+VOTEGEN_POST		99	Refused/Web blank
+INC_SDT1	"Last year, that is in 2024, what was your total family income from all sources, before taxes?"	1	"Less than $30,000"
+INC_SDT1		2	"$30,000 to less than $40,000"
+INC_SDT1		3	"$40,000 to less than $50,000"
+INC_SDT1		4	"$50,000 to less than $70,000"
+INC_SDT1		5	"$70,000 to less than $100,000"
+INC_SDT1		6	"$100,000 to less than $125,000"
+INC_SDT1		7	"$125,000 to less than $150,000"
+INC_SDT1		8	"$150,000 or more"
+INC_SDT1		99	Refused/Web blank
+CREGION	Census region	1	Northeast
+CREGION		2	Midwest
+CREGION		3	South
+CREGION		4	West
+METRO	Metropolitan area indicator	1	Metropolitan
+METRO		2	Non-metropolitan
+BASEWT	Person level baseweight with adaptive mode adjustment	0.08008215	Min. Val.
+BASEWT		2.522327	Max. Val
+WEIGHT	Final raked weight	0.06894074	Min. Val.
+WEIGHT		5.454124	Max. Val
