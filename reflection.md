@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Student Email:  email
+Student Name:  Luisana Ortiz
+Student Email:  lsortiz@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,15 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+- inspiratin t creeate this from iddle clasas calculator
+-how time consuming the process of de-cding and building tthe dasbaord and other cnsiderations were vs hte ui loking veyr simple
+- how i want o improve it:
+- better handling for both not finding any respnodents of a specific profile and also figuring out how to address different "sample sizes" when it comes to demgraphics tthat users refused to respond to
+
+
+- next time, would also make the mapping/decding prcess part of the etl--I left both the mapped and original datasets in the data folder for viewing, but in rettrspect, this was an imporant part of the "transform" prcess of ETL, and it definietly wuld've been geat to create a tetst for his as well. 
+- also 
+iniclude "refused' answers
+Error handling:
+
+- If no respondents of a certain demographic used social media, error handle for this
