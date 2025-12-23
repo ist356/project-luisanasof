@@ -25,7 +25,11 @@ Before starting, you should have 2 dataframes under the code/data folder:
 The first function will create a transformed, cleaned and mapped version of the original dataframe, 'NPORS_2025_for_public_release_FINAL.csv'. In the transformation step, it will drop all irrelevant columns (more information on selection process below), all null rows, and transform column names to lowercase. Finally, it will replace the coded values with their categorical equivalents based on the included NPORS 2025 codebook.
 **NOTE: the included 'NPORS_2025_coded' dataset is a coded version of the mapped dataset.
 
-The rest of the functions are pretty straightforward, and more information is included in each of their docstrings. One function that should be noted is the get_demographics function, which requires a list of demographic columns as a parameter. While working on the functions, I was unsure what demographic selections I wanted, so I included all of them. I ended up only utilizing gender, education, income and age group, but didn't filter the dataset to just include these four (so that in the future I might build a more extensive project where users can choose what demographics to build for a profile themselves, perhaps).
+The rest of the functions are pretty straightforward, and more information is included in each of their docstrings. 
+
+One function that should be noted is the get_demographics function, which requires a list of demographic columns as a parameter. While working on the functions, I was unsure what demographic selections I wanted, so in the etl.py file I created a list with all of them and narrowed it down to just 7, which form the selected_demographic_cols list.  I ended up only utilizing gender, education, income and age group for the actual program, but didn't filter the dataset to just include these four (so that in the future I might build a more extensive project where users can choose what demographics to build for a profile themselves, perhaps).
+
+From the demographics column list, I dropped the race/ethnicity, hispanic, metro region, birthplace , adults in household, and political party columns. I thought these might be either more irrelevant or just more likely to have been answered with a 'refused' compared to other demographics.
 
 At the end of this step, you should have 4 new dataframes:
 
