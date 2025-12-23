@@ -2,10 +2,50 @@ import pandas as pd
 import numpy as np
 import codebook
 
-path = '/Users/luisanasof/Desktop/Undergrad Classes and Docs/Fall 2025/Classes/IST356/assignments/project-luisanasof/code/data/NPORS_2025_mapped.csv'
+#This file is mainly for scratch notes, trynig out code eetc. 
+#not exacttly in order but does demonstrate how I thought through the logic of the program
+
+# agg_df = pd.pivot_table(filtered_df,
+#                         values=['response'],
+#                         index=['respid'],
+#                         columns=['platform', 'response'],
+#                         aggfunc="sum")
+
+# agg_df = pd.melt(filtered_df,
+#                  id_vars= 'respid',
+#                  value_vars='platform',
+
+                 
+#                         values=['response'],
+#                         index=['respid'],
+#                         columns=['platform','response'],
+#                         aggfunc="count")
+
+
+
+#path = '/Users/luisanasof/Desktop/Undergrad Classes and Docs/Fall 2025/Classes/IST356/assignments/project-luisanasof/code/data/NPORS_2025_for_public_release_FINAL.csv'
+dems= '/Users/luisanasof/Desktop/Undergrad Classes and Docs/Fall 2025/Classes/IST356/assignments/project-luisanasof/code/data/NPORS_2025_demographics.csv'
+soc_dem = '/Users/luisanasof/Desktop/Undergrad Classes and Docs/Fall 2025/Classes/IST356/assignments/project-luisanasof/code/data/NPORS_2025_socials_demographics.csv'
+
+#df = pd.read_csv(path)
+df1 = pd.read_csv(dems)
+df2 = pd.read_csv(soc_dem)
+
+df.isna().sum()
+#has na
+df1.isna().sum()
+df2.isna().sum()
+
+path = '/Users/luisanasof/Desktop/Undergrad Classes and Docs/Fall 2025/Classes/IST356/assignments/project-luisanasof/code/data/NPORS_2025_socials_demographics.csv'
 df = pd.read_csv(path)
 
-df.isna()
+#print(df[df["Age group"]=='Refused'].sum())
+
+
+
+print((df['Education Level']=='Refused').sum())
+print(df[df['Family income']=="Refused/Web blank"].sum())
+print(df[df["Gender"]=="Refused/Web blank"].sum())
 
 #df_test
 
@@ -156,7 +196,6 @@ How I envision it (st dashboard)
 #then: TESTS, explanation, reflection
 #function
 
-socialmedia_cols = ['smuse_fb', 'smuse_yt', 'smuse_x', 'smuse_ig', 'smuse_sc', 'smuse_tt', 'smuse_rd', 'smuse_bsk', 'smuse_th', 'smuse_ts']
-for index, row in df.iterrows():
-    
-    if 
+#socialmedia_cols = ['smuse_fb', 'smuse_yt', 'smuse_x', 'smuse_ig', 'smuse_sc', 'smuse_tt', 'smuse_rd', 'smuse_bsk', 'smuse_th', 'smuse_ts']
+#for index, row in df.iterrows():
+    #if

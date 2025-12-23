@@ -6,7 +6,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-st.set_page_config(layout="centered")
+st.set_page_config(layout="wide")
 
 st.title("How did the U.S. use social media in 2025?")
 st.subheader("See how Americans in different demographics used social media this year.")
@@ -39,57 +39,51 @@ income = st.select_slider(label="What is your family income?",
 
 #Filtering the dataframe
 filtered_df = df[(df['Age group']==age) & (df['Gender']==gender) & (df['Education Level']==education) & (df['Family income']==income)]
-#sliced_df = filtered_df[demographics]
-#st.dataframe(sliced_df)
-
-#Aggregating for visualizations
 #Adding a 'count' column to be able to aggregate social media data
 filtered_df['count'] = 1
-agg_df = filtered_df.groupby(['platform', 'response']).sum('count').reset_index()
+#st.dataframe(filtered_df)
+
+#Aggregating for visualizations
+
+#Respondent counts for metrics
+responder_count = filtered_df['respid'].unique().size
+total_respondent_count = df['respid'].unique().size
+respondent_percent = round((responder_count/total_respondent_count)*100, 2)
+
+agg_df = filtered_df.groupby(['platform', 'response'])['count'].sum().reset_index()
 #st.dataframe(agg_df)
-responder_count = agg_df['count'].sum()
+
+#Metrics
+
+col1, col2 = st.columns(2, vertical_alignment='bottom')
+
+with col1:
+    st.metric(label='No. respondents of this profile:',
+            value=responder_count)
+with col2:
+    st.metric(label='Percent of respondents with this profile:',
+            value=f"{respondent_percent}%")
 
 #Visualizations
-
 #creating a colormap to maintain legend consistent:
-import plotly.express as px
-
-# Define a consistent color mapping
 color_map = {
-    "Yes, use this": "#008ecc",
-    "No, don't use this": "#Ff6f61",
-    "Refused/Web blank": "#CCCCCC"
+    "Yes, use this": "#59F2B9",
+    "No, don't use this": "#F26D59",
+    "Refused/Web blank": "#D3D3D3"
 }
 
-bargraph = px.bar(agg_df,
-                  x='platform',
-                  y='count',
-                  color='response',
-                  barmode='group',
-                  color_discrete_map=color_map)
+if responder_count > 0:
+    bargraph = px.bar(agg_df,
+                    x='platform',
+                    y='count',
+                    color='response',
+                    barmode='group',
+                    color_discrete_map=color_map)
+    st.plotly_chart(bargraph)
+else:
+    st.error("No respondents matching this profile")
 
-st.plotly_chart(bargraph)
+# 
 st.caption(body=f"Responder count: {responder_count}")
 
 
-
-# st.radio("Which of these best describes your community?",
-#          options=["Urban",
-#                   "Suburban",
-#                   "Rural",
-#                   "None of these/Other"])
-
-# st.radio(label="What is your level of education?")
-
-
-# st.selectbox(label="What is your race/ethnicity? (Select the best option)",
-#          options=["White non-Hispanic",
-#         "Black non-Hispanic",
-#         "Hispanic",
-#         "Other",
-#         "Asian non-Hispanic",
-#         "Prefer not to answer"])
-
-# st.map
-# # st.radio(label=)
-# # st.radio(label=)

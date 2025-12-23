@@ -29,8 +29,8 @@ Examples:
 - better handling for both not finding any respnodents of a specific profile and also figuring out how to address different "sample sizes" when it comes to demgraphics tthat users refused to respond to
 
 
-- next time, would also make the mapping/decding prcess part of the etl--I left both the mapped and original datasets in the data folder for viewing, but in rettrspect, this was an imporant part of the "transform" prcess of ETL, and it definietly wuld've been geat to create a tetst for his as well. 
-- also 
+- next time, would also make the mapping/decding prcess part of the etl--I left the original dataset in the data folder for viewing, but in rettrspect, this was an imporant part of the "transform" prcess of ETL, and it definietly wuld've been geat to create a tetst for his as well. 
+- also, I realized I transformd thhe "mapped" dataframe rater than leave it intact--no yet drpping the clumns, not dropping nas--in order to test it and theen ceate anohe function fo ots. 
 iniclude "refused' answers
 Error handling:
 
