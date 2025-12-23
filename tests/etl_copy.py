@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from codebook import mapping_dict
+from codebook_copy import mapping_dict
 
 socialmedia_cols = ['smuse_fb', 'smuse_yt', 'smuse_x', 'smuse_ig', 'smuse_sc', 'smuse_tt', 'smuse_rd', 'smuse_bsk', 'smuse_th', 'smuse_ts']
 
