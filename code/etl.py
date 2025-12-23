@@ -114,6 +114,7 @@ def get_demographics(npors_df: pd.DataFrame, demographics: list) -> pd.DataFrame
     '''
     Return a dataframe with demographic columns of choice.
     '''
+    #adding back the respid column for identification
     cols = ['respid'] + demographics
     demographics_df = npors_df[cols].copy()
     for col in demographics:

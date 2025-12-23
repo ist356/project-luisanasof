@@ -2,6 +2,7 @@ import pytest
 import pandas as pd
 import sys
 import os
+import code
 from code.etl import get_demographics, get_social_demographics, get_social_responses
 from code.codebook import mapping_dict
 
