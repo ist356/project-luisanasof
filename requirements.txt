@@ -1,0 +1,14 @@
+pytest
+pandas
+streamlit
+numpy
+pillow
+ipywidgets
+lxml
+openpyxl
+matplotlib
+seaborn
+geopandas[all]
+mapclassify
+folium
+streamlit-folium
